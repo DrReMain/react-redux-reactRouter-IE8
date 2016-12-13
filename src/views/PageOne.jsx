@@ -3,7 +3,10 @@ import React, {Component} from 'react'
 class HomePage extends Component {
     render() {
         return (
-            <h1>PageOne</h1>
+            <div>
+                <h1>PageOne</h1>
+                <img src={require('../assets/react.png')}/>
+            </div>
         )
     }
 }

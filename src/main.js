@@ -21,14 +21,17 @@ require('es6-promise');
 
 const React = require('react');
 const ReactDOM = require('react-dom');
+const Provider = require('react-redux').Provider
+const store = require('./redux/store/index')()
+const App = require('./App')
+
 
 require('./styles/less/app.less');
 
 
-const App = require('./App')
-
-
 ReactDOM.render(
-    <App/>,
+    <Provider store={store}>
+        <App/>
+    </Provider>,
     document.getElementById('app')
 );
