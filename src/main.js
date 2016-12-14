@@ -7,10 +7,10 @@
 
 require('es5-shim');
 require('es5-shim/es5-sham');
-require('console-polyfill');
-require('fetch-ie8');
-require('babel-polyfill');
 require('es6-promise');
+require('fetch-ie8');
+// require('console-polyfill');
+require('babel-polyfill');
 
 /**
  * CANNOT use `import` to import `react` or `react-dom`,

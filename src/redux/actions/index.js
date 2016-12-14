@@ -9,3 +9,8 @@ export function completeTodo(id) {
 }
 
 
+
+
+export function fetchGithub(url) {
+    return {type: types.FETCH_GITHUB, url}
+}

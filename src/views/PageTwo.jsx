@@ -5,7 +5,7 @@ import Header from '../components/Header';
 import Content from '../components/Content'
 import * as Actions from '../redux/actions'
 
-class HomePage extends Component {
+class PageTwo extends Component {
     render() {
 
         const {todos, actions} = this.props;
@@ -35,4 +35,4 @@ function mapDispatchToProps(dispatch) {
 module.exports = connect(
     mapStateToProps,
     mapDispatchToProps
-)(HomePage);
+)(PageTwo);
