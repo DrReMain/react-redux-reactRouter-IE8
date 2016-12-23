@@ -1,6 +1,6 @@
 import * as Types from '../constants/actionTypes';
 import * as Actions from '../actions';
-// import objectAssign from 'object-assign';
+import objectAssign from 'object-assign';
 
 const initialState = {
     json: 'empty'
